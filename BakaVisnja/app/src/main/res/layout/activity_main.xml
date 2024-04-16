@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3C6A9" >
+<!--    tools:context=".MainActivity"-->
+<!--    tools:ignore="missingConstraints" >-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="303dp"-->
+<!--        android:layout_height="68dp"-->
+<!--        android:layout_x="53dp"-->
+<!--        android:layout_y="546dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:ellipsize="middle"-->
+<!--        android:text="Нови налог"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FFFDFD"-->
+<!--        android:textColorLink="#2196F3"-->
+<!--        android:textSize="34sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:layout_editor_absoluteY="577dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="323dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="Бака Вишња"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#E85265"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:typeface="normal"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.149"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#E85265"
+        android:fontFamily="sans-serif-black"
+        android:text="Бака Вишња"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="303dp"-->
+<!--        android:layout_height="68dp"-->
+<!--        android:layout_x="52dp"-->
+<!--        android:layout_y="444dp"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:ellipsize="middle"-->
+<!--        android:text="Улогуј се"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FFFDFD"-->
+<!--        android:textColorLink="#2196F3"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:layout_editor_absoluteY="474dp" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/screenshot_2024_04_10_181024"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="380dp"-->
+<!--        android:layout_height="258dp"-->
+<!--        android:layout_x="17dp"-->
+<!--        android:layout_y="155dp"-->
+<!--        app:srcCompat="@drawable/screenshot_2024_04_10_181024" />-->
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Улогуј се"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:radius="30dp"
+        android:stateListAnimator="@null"
+        android:elevation="8dp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:radius="30dp"
+        android:text="Нови налог"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:stateListAnimator="@null"
+        android:elevation="8dp"/>
+
+
+
+
+</RelativeLayout>
