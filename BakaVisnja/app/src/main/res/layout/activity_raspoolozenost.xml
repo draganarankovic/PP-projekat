@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3C6A9"
+    tools:context=".RaspoolozenostActivity"
+    tools:ignore="missingConstraints" >
+
+
+    <TextView
+        android:id="@+id/raspolozenost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Да ли сте данас расположени за кување са Бака Вишњом?"
+        android:textAlignment="center"
+        android:textColor="#E85265"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/slika4"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/screenshot_2024_04_10_181024"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/raspolozenost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"/>
+
+
+    <Button
+        android:id="@+id/dugme_jesam"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Јесам"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/slika4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:radius="30dp"
+        android:stateListAnimator="@null"
+        android:elevation="8dp" />
+
+    <Button
+        android:id="@+id/dugme_nisam"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Нисам"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/slika4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:radius="30dp"
+        android:stateListAnimator="@null"
+        android:elevation="8dp" />
+
+
+</RelativeLayout>
